@@ -1,0 +1,56 @@
+/* SHARED STYLES */
+
+* {
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+body {
+    margin: 0; padding: 0;
+}
+
+/* HEADER STYLES */
+
+header {
+    width: 100%;
+    margin: 0; padding: 0;
+    background: #191919;
+}
+.header {
+    max-width: 1200px;
+    padding: 10px 0; margin: auto;
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+.header__time__text {
+    font-size: 16px;
+    line-height: 15px;
+    letter-spacing: 1px;
+}
+.header__phone {
+    display: flex;
+    font-size: 13px;
+    letter-spacing: 1px;
+    align-items: center;
+}
+.header__phone__num {
+    margin-right: 18px;
+    letter-spacing: 1px;
+    line-height: 30px;
+    font-size: 18px;
+}
+.header__phone__numTwo {
+    margin: 0;
+}
+.header__button {
+    width: 170px;
+    height: 50px;
+    background-color: #1669b3;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
