@@ -59,7 +59,22 @@ header {
 /* MAIN STYLES */
 
 main {
-    background-image: url(img/main_page.png);
-    width: 100%;
+    background: url(..//main_page.png);
     margin: 0; padding: 0;
+}
+.main {
+    max-width: 1200px;
+    margin: auto;
+}
+.main__page {
+    background: #f7b516;
+    height: 800px;
+    width: 40%;
+    padding: 80px 100px 80px 80px;
+}
+.main__title {
+    margin: 0;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 38px;
 }
