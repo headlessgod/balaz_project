@@ -54,21 +54,23 @@ header {
     border: none;
     color: white;
     cursor: pointer;
+    font-weight: bold;
 }
 
 /* MAIN STYLES */
 
-main {
-    background: url(..//main_page.png);
-    margin: 0; padding: 0;
-}
+
 .main {
+    width: 100%;
+    background: url(..//image/main_page.png);
+}
+.main__content {
     max-width: 1200px;
     margin: auto;
 }
 .main__page {
     background: #f7b516;
-    height: 800px;
+    height: 780px;
     width: 40%;
     padding: 80px 100px 80px 80px;
 }
@@ -76,5 +78,84 @@ main {
     margin: 0;
     text-transform: uppercase;
     font-weight: bold;
-    font-size: 38px;
+    font-size: 41px;
+}
+.main__underTitle {
+    margin: 44px 0;
+}
+.main__profit{
+    display: flex;
+    align-items: center;
+    margin: 30px 0;
+}
+.main__profitText {
+    margin-left: 20px;
+    font-size: 19px;
+    font-weight: 100;
+}
+
+/* PRICE PAGE STYLES */
+
+
+.main__price {
+    margin: 0; padding: 0;
+    background: url(..//image/page_two.png);
+    width: 100%;
+    height: 500px;
+}
+.price__page {
+    margin: auto;
+    max-width: 1200px;
+    text-align: right;
+}
+.price__title {
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 13px;
+    margin: 200px 0 80px 0;
+    letter-spacing: 1px;
+}
+.price__data {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 130px;
+}
+.price__data__mail, .price__data__tel {
+    background-color: #f2f2f2;
+    padding: 30px 90px 30px 15px;
+    font-size: 19px;
+    text-transform: uppercase;
+    color: #818181;
+    text-align: left;
+    border: none;
+    border-radius: 10px;
+    cursor: text;
+}
+.price__data__mail {
+    margin-right: 30px;
+}
+.price__finish {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 50px 0;
+}
+.price__finish__text {
+    margin: 16px 8px 0 8px;
+    font-size: 16px;
+    line-height: 13px;
+}
+.price__image {
+    margin: 0 30px;
+}
+.price__button {
+    background-color: #1866af;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 30px 81px;
+    font-size: 19px;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
 }
